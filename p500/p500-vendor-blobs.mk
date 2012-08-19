@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
 ###################### DON'T EDIT ###################################
 PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/p500/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p500/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml \
     vendor/lge/p500/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
     vendor/lge/p500/proprietary/lib/libqmi.so:system/lib/libqmi.so \
