@@ -66,11 +66,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/p500/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p500/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/lge/p500/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
     vendor/lge/p500/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
     vendor/lge/p500/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
     vendor/lge/p500/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p500/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/p500/proprietary/bin/ami304d:system/bin/ami304d \
+    vendor/lge/p500/proprietary/lib/hw/audio.primary.p500.so:system/lib/hw/audio.primary.p500.so \
+    vendor/lge/p500/proprietary/lib/hw/audio_policy.p500.so:system/lib/hw/audio_policy.p500.so \
     vendor/lge/p500/proprietary/lib/hw/sensors.p500.so:system/lib/hw/sensors.p500.so
     
 PRODUCT_COPY_FILES += \
@@ -83,6 +86,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/lge/p500/proprietary/lib/hw/audio.primary.msm7x27.so:system/lib/hw/audio.primary.msm7x27.so \
+    vendor/lge/p500/proprietary/lib/hw/audio_policy.msm7x27.so:system/lib/hw/audio_policy.msm7x27.so \
+    vendor/lge/p500/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/lge/p500/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/lge/p500/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/lge/p500/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/p500/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/p500/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
@@ -102,5 +110,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/lge/p500/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
     vendor/lge/p500/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/lge/p500/proprietary/lib/hw/camera.msm7x27.so:system/lib/hw/camera.msm7x27.so
-
+    vendor/lge/p500/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
