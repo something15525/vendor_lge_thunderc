@@ -109,6 +109,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/thunderc/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+	vendor/lge/thunderc/proprietary/app/GenieWidget.apk:system/app/GenieWidget.apk \
+	vendor/lge/thunderc/proprietary/app/Email.apk:system/app/Email.apk \
+	vendor/lge/thunderc/proprietary/app/Exchange2.apk:system/app/Exchange2.apk 
     
 ## OMX proprietaries (from ZTE Blade)
 PRODUCT_COPY_FILES += \
